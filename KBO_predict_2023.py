@@ -59,7 +59,7 @@ def baseline(m):
     candidate = itertools.permutations(range(10),10)
     candidate = list(candidate)
 
-    scores = [sum([abs(result[m][1][i]-c[i]) for i in range(10)]) for c in tqdm.tqdm(candidate)]
+    scores = [100-sum([abs(result[m][1][i]-c[i]) for i in range(10)]) for c in tqdm.tqdm(candidate)]
     
     # scores = [(sum([(c[i]-i)**2 for i in range(10)])/10)**0.5 for c in tqdm.tqdm(candidate)]
     scores = pd.Series(scores)
