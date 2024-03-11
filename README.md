@@ -16,5 +16,5 @@
 모든 경우의 수에 대해 점수의 분포를 그려보면 왼쪽 tail은 두껍고 오른쪽 tail은 얇음. 평균적인 점수가 최고점과 최저점의 중간(75점)이 아닌 67점.
 
 # Result
-/[image](./final_rank.png)
-/[image](./rank_graph.png)
+![image](./final_rank.png)
+![image](./rank_graph.png)
